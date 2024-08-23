@@ -1,0 +1,194 @@
+[
+	{
+		"_id": "PID.SAMPLE.PREFIX/ds1",
+		"owner": "owner1",
+		"ownerEmail": "owner@example.com",
+		"orcidOfOwner": "XXXX-XXXX-XXXX-XXXX",
+		"contactEmail": "owner@example.com",
+		"sourceFolder": "data/98/data",
+		"sourceFolderHost": "example.com",
+		"size": 4000,
+		"packedSize": 0,
+		"numberOfFiles": 98,
+		"numberOfFilesArchived": 98,
+		"creationTime": {
+			"$date": "2020-02-07T13:46:43.000Z"
+		},
+		"type": "raw",
+		"description": "All 'hits' in hdf5 files (Cheetah slab format) together with geometries and all CrystFEL .stream files, .hkl files and .mtz files. Also all Phenix .pdb files together with log files. All scripts needed to reproduce the result are also included.",
+		"datasetName": "cheetah",
+		"classification": "IN=medium,AV=low,CO=low",
+		"license": "",
+		"version": "3.1.0",
+		"isPublished": true,
+		"ownerGroup": "aGroup",
+		"accessGroups": [],
+		"createdBy": "ingestor",
+		"history": [],
+		"datasetlifecycle": {
+			"archivable": true,
+			"retrievable": false,
+			"publishable": false,
+			"archiveRetentionTime": {
+				"$date": "2031-06-29T00:00:00.000Z"
+			},
+			"dateOfPublishing": {
+				"$date": "2024-06-29T00:00:00.000Z"
+			},
+			"isOnCentralDisk": true,
+			"archiveStatusMessage": "datasetCreated",
+			"retrieveStatusMessage": "",
+			"retrieveIntegrityCheck": false
+		},
+		"createdAt": {
+			"$date": "2021-06-29T16:40:55.773Z"
+		},
+		"updatedAt": {
+			"$date": "2021-06-29T16:40:55.777Z"
+		},
+		"techniques": [
+			{
+				"pid": "PaNET01168",
+				"name": "photon_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.Q133900.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.CHMO_0000182.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.diffraction.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_purpose.obtain_atomic_structure.crystallography.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.pulsed_probe.single_shot_technique.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.pulsed_probe.ultrafast_probe.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.photon_probe.x-ray_probe.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography"
+			}
+		],
+		"principalInvestigator": "owner1",
+		"scientificMetadata": {
+			"beamEnergy": {
+				"value": 9.30,
+				"unit": "keV",
+				"valueSI": 1.4900242054500001e-15,
+				"unitSI": "(kg m^2) / s^2"
+			}
+		},
+		"creationLocation": "aLocation"
+	},
+	{
+		"_id": "PID.SAMPLE.PREFIX/ds2",
+		"owner": "owner1",
+		"ownerEmail": "owner@example.com",
+		"orcidOfOwner": "XXXX-XXXX-XXXX-XXXX",
+		"contactEmail": "owner@example.com",
+		"sourceFolder": "data/98/indexing",
+		"sourceFolderHost": "example.com",
+		"size": 4000,
+		"packedSize": 0,
+		"numberOfFiles": 98,
+		"numberOfFilesArchived": 98,
+		"creationTime": {
+			"$date": "2020-02-07T13:46:43.000Z"
+		},
+		"type": "raw",
+		"description": "All 'hits' in hdf5 files (Cheetah slab format) together with geometries and all CrystFEL .stream files, .hkl files and .mtz files. Also all Phenix .pdb files together with log files. All scripts needed to reproduce the result are also included.",
+		"datasetName": "indexing",
+		"classification": "IN=medium,AV=low,CO=low",
+		"license": "",
+		"version": "3.1.0",
+		"isPublished": true,
+		"ownerGroup": "aGroup",
+		"accessGroups": [],
+		"createdBy": "ingestor",
+		"history": [],
+		"datasetlifecycle": {
+			"archivable": true,
+			"retrievable": false,
+			"publishable": false,
+			"archiveRetentionTime": {
+				"$date": "2031-06-29T00:00:00.000Z"
+			},
+			"dateOfPublishing": {
+				"$date": "2024-06-29T00:00:00.000Z"
+			},
+			"isOnCentralDisk": true,
+			"archiveStatusMessage": "datasetCreated",
+			"retrieveStatusMessage": "",
+			"retrieveIntegrityCheck": false
+		},
+		"createdAt": {
+			"$date": "2021-06-29T16:41:06.070Z"
+		},
+		"updatedAt": {
+			"$date": "2021-06-29T16:41:06.074Z"
+		},
+		"techniques": [
+			{
+				"pid": "PaNET01168",
+				"name": "photon_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.Q133900.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.CHMO_0000182.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.diffraction.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_purpose.obtain_atomic_structure.crystallography.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.pulsed_probe.single_shot_technique.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.pulsed_probe.ultrafast_probe.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.photon_probe.x-ray_probe.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography"
+			}
+		],
+		"principalInvestigator": "owner1",
+		"scientificMetadata": {
+			"beamEnergy": {
+				"value": 9.30,
+				"unit": "keV",
+				"valueSI": 1.4900242054500001e-15,
+				"unitSI": "(kg m^2) / s^2"
+			}
+		},
+		"creationLocation": "aLocation"
+	},
+	{
+		"_id": "PID.SAMPLE.PREFIX/ds3",
+		"owner": "owner1",
+		"ownerEmail": "owner@example.com",
+		"orcidOfOwner": "XXXX-XXXX-XXXX-XXXX",
+		"contactEmail": "owner@example.com",
+		"sourceFolder": ".",
+		"sourceFolderHost": "example.com",
+		"size": 262600000,
+		"packedSize": 0,
+		"numberOfFiles": 1,
+		"numberOfFilesArchived": 1,
+		"creationTime": {
+			"$date": "2020-02-07T13:46:43.000Z"
+		},
+		"type": "raw",
+		"description": "All 'hits' in hdf5 files (Cheetah slab format) together with geometries and all CrystFEL .stream files, .hkl files and .mtz files. Also all Phenix .pdb files together with log files. All scripts needed to reproduce the result are also included.",
+		"datasetName": "phenix",
+		"classification": "IN=medium,AV=low,CO=low",
+		"license": "",
+		"version": "3.1.0",
+		"isPublished": true,
+		"ownerGroup": "aGroup",
+		"accessGroups": [],
+		"createdBy": "ingestor",
+		"history": [],
+		"datasetlifecycle": {
+			"archivable": true,
+			"retrievable": false,
+			"publishable": false,
+			"archiveRetentionTime": {
+				"$date": "2031-06-29T00:00:00.000Z"
+			},
+			"dateOfPublishing": {
+				"$date": "2024-06-29T00:00:00.000Z"
+			},
+			"isOnCentralDisk": true,
+			"archiveStatusMessage": "datasetCreated",
+			"retrieveStatusMessage": "",
+			"retrieveIntegrityCheck": false
+		},
+		"createdAt": {
+			"$date": "2021-06-29T16:41:14.933Z"
+		},
+		"updatedAt": {
+			"$date": "2021-06-29T16:41:14.938Z"
+		},
+		"techniques": [
+			{
+				"pid": "PaNET01168",
+				"name": "photon_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.Q133900.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.CHMO_0000182.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_physical_process.scattering_technique.elastic_scattering.diffraction.atomic_scale_diffraction.atomic_scale_diffraction_3D_volume.atomic_scale_diffraction_3D_volume_3D_periodic.single_crystal_diffraction.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_purpose.obtain_atomic_structure.crystallography.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.pulsed_probe.single_shot_technique.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.pulsed_probe.ultrafast_probe.serial_femtosecond_crystallography;\nphoton_and_neutron_technique.defined_by_experimental_probe.photon_probe.x-ray_probe.x-ray_single_crystal_diffraction.serial_femtosecond_crystallography"
+			}
+		],
+		"principalInvestigator": "owner1",
+		"scientificMetadata": {
+			"beamEnergy": {
+				"value": 9.30,
+				"unit": "keV",
+				"valueSI": 1.4900242054500001e-15,
+				"unitSI": "(kg m^2) / s^2"
+			}
+		},
+		"creationLocation": "aLocation"
+	}
+]

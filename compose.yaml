@@ -1,0 +1,33 @@
+services:
+  backend:
+    depends_on:
+      - mongodb
+    environment:
+      ADMIN_GROUPS: admin
+      CREATE_DATASET_GROUPS: admin
+      DELETE_GROUPS: admin
+      EXPRESS_SESSION_SECRET: secret
+      JWT_SECRET: secret
+      MONGODB_URI: mongodb://mongodb:27017/dacat-next
+      PROPOSAL_GROUPS: proposalingestor
+      SAMPLE_GROUPS: ingestor
+      SITE: FACILITY
+      PID_PREFIX: PID.SAMPLE.PREFIX
+    image: ghcr.io/scicatproject/backend-next:255ee9e8406e87954611a0227465c210dcd604dc
+    command: sh -c '. /db_migration.sh; node dist/main'
+    volumes:
+      - ./config/backend/functionalAccounts.json:/home/node/app/functionalAccounts.json
+      - ./config/backend/db_migration.sh:/db_migration.sh
+    ports:
+      - 3000:3000
+
+  mongodb:
+    image: mongo:7.0
+    volumes:
+      - backend_mongodb_data:/data/db
+      - ./config/mongodb/init.sh:/docker-entrypoint-initdb.d/init.sh
+      - ./config/mongodb/seed:/seed
+
+volumes:
+  backend_mongodb_data:
+    driver: local
